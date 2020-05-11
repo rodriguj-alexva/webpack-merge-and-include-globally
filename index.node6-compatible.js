@@ -64,6 +64,8 @@ class MergeIntoFile {
       callback();
       return;
     }
+    Console.log(this.options);
+    
     const generatedFiles = {};
     let filesCanonical = [];
     if (!Array.isArray(files)) {
